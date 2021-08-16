@@ -1,1 +1,1 @@
-web cd env & flask run & npm start
+web source env/bin/activate & flask run & npm start
