@@ -1,1 +1,1 @@
-web gunicorn app:app $PORT & npm start
+web flask run & npm start
