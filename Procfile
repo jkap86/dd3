@@ -1,1 +1,1 @@
-web source env/bin/activate & flask run & npm start
+web gunicorn app:app $PORT & npm start
